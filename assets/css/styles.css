@@ -1,0 +1,80 @@
+/* style.css */
+
+/* General styles for the body of the page */
+body {
+    font-family: Arial, sans-serif; /* Sets font to Arial */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-color: #007cb9; /* Sets background color of the page */
+    color: #333; /* Sets text color */
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333; /* Sets background color of the navigation bar */
+    padding: 1em; /* Adds padding inside the navbar */
+    text-align: center; /* Centers the text inside the navbar */
+}
+
+/* Styles for links inside the navigation bar */
+nav a {
+    color: white; /* Sets text color of the links to white */
+    text-decoration: none; /* Removes the underline from links */
+    font-size: 1.2em; /* Sets font size for the links */
+    padding: 0.5em; /* Adds padding around the links */
+}
+
+/* Hover effect for links inside the navigation */
+nav a:hover {
+    text-decoration: none; /* Ensures no underline appears on hover */
+}
+
+/* Container styling for the main content */
+.container {
+    max-width: 800px; /* Sets the maximum width of the container */
+    margin: 2em auto; /* Centers the container with margin on top and bottom */
+    padding: 2em; /* Adds padding inside the container */
+    background-color: white; /* Sets the background color to white */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the container */
+    border-radius: 5px; /* Rounds the corners of the container */
+    text-align: center; /* Centers the text inside the container */
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2em; /* Sets font size for the main heading */
+    margin-bottom: 1em; /* Adds space below the heading */
+}
+
+/* Styles for the location select dropdown */
+#locationSelect {
+    font-size: 1em; /* Sets font size for the dropdown */
+    padding: 0.5em; /* Adds padding inside the dropdown */
+    margin-bottom: 1em; /* Adds space below the dropdown */
+    border: 1px solid #ccc; /* Adds a light border around the dropdown */
+    border-radius: 5px; /* Rounds the corners of the dropdown */
+}
+
+/* Styles for paragraphs inside the time display section */
+#timeDisplay p {
+    font-size: 1.2em; /* Sets font size for the paragraphs */
+    margin: 0.5em 0; /* Adds vertical margin between paragraphs */
+}
+
+/* Footer section styling */
+footer {
+    margin-top: 2em; /* Adds space above the footer */
+    font-size: 0.9em; /* Sets smaller font size for the footer text */
+    color: #666; /* Sets lighter color for footer text */
+}
+
+/* Styles for links in the footer */
+footer a {
+    color: #007bff; /* Sets color for links in the footer */
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* Hover effect for footer links */
+footer a:hover {
+    text-decoration: none; /* Ensures no underline appears on hover */
+}

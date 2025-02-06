@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Charset and viewport settings for proper rendering on all devices -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title of the webpage, which appears in the browser tab -->
     <title>World Clock</title>
-    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Link to an external CSS file for styling -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
+    <!-- Navigation section with a link to the home page -->
     <nav>
         <a href="/">Home</a>
     </nav>
+
+    <!-- Main content container -->
     <div class="container">
+        <!-- Header of the page displaying the title "World Clock" -->
         <h1>World Clock</h1>
+
+        <!-- Dropdown select for users to choose a location -->
         <select id="locationSelect">
             <option value="New York">New York</option>
             <option value="London">London</option>
@@ -22,24 +33,33 @@
             <option value="Moscow">Moscow</option>
             <option value="Los Angeles">Los Angeles</option>
             <option value="Dubai">Dubai</option>
-            </select>
+        </select>
+
+        <!-- Display section for showing local and selected location times -->
         <div id="timeDisplay">
+            <!-- Paragraph showing the user's local time -->
             <p id="localTime">Your Local Time: <span></span></p>
+            
+            <!-- Paragraph showing the selected location's time -->
             <p id="selectedTime">Selected Location Time: <span></span></p>
         </div>
-       
-       <footer>
-       This project was coded by
-        <a href="https://github.com/yvonnesarah" target="_blank"
-          >Yvonne Adedeji</a
-        >
-        and is open-sourced on
-        <a href="https://github.com/yvonnesarah/world-clock-project" target="_blank">GitHub</a>
-        and hosted on
-        <a href="https://ya-world-clock-project.netlify.app/" target="_blank">Netlify</a>.
-       </footer>
-       </div>
 
-      <script src="javascript/index.js"></script>
+        <!-- Footer with information about the project -->
+        <footer>
+            This project was coded by
+            <!-- Link to the developer's GitHub profile -->
+            <a href="https://github.com/yvonnesarah" target="_blank">Yvonne Adedeji</a>
+            and is open-sourced on
+            <!-- Link to the GitHub repository for the project -->
+            <a href="https://github.com/yvonnesarah/world-clock-project" target="_blank">GitHub</a>
+            and hosted on
+            <!-- Link to the hosted project on Netlify -->
+            <a href="https://ya-world-clock-project.netlify.app/" target="_blank">Netlify</a>.
+        </footer>
+    </div>
+
+    <!-- Link to an external JavaScript file for functionality -->
+    <script src="./assets/js/index.js"></script>
 </body>
 </html>
+
